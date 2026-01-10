@@ -76,30 +76,30 @@ form > div.campo {
     height: 40px;
     border-radius: 10px;
     margin: 5px 0px;
-    padding: 5px;
 }
 
 label {
-    line-height: 24px;
+    display: none;
 }
 
-/*div.campo > i {
+div.campo > span {
     color: white;
-    background-color: black;
     font-size: 2em;
     width: 40px;
     padding: 5px;
-}*/
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
 
 div.campo > input {
     display: block;
     background-color: #5fcbc8;
     border: 0px;
     padding: 4px;
-    height: 100%;
-    width: calc(100% - 50px);
     border-radius: 10px;
-    transform: translate(50px, -23px);
+    height: 77%;
+    width: calc(100% - 43px);
+    transform: translate(39px, -37.5px);
 }
 
 div.campo > input:focus-within{
